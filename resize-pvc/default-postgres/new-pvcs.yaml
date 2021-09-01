@@ -20,7 +20,7 @@ metadata:
  labels:
     component: stolon-keeper
     stolon-cluster: default-postgres
- name: default-postgres-data-default-postgres-keeper-0
+ name: default-postgres-data-default-postgres-keeper-1
  namespace: <REPLACE_WITH_NAMESPACE>
 spec:
   accessModes:
