@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: swap-pvc-1
+  name: busybox-swap-pvc-1
 spec:
   imagePullSecrets:
     - name: ibm-isc-pull-secret
