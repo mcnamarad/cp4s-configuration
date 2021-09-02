@@ -4,7 +4,7 @@ metadata:
  labels:
     component: stolon-keeper
     stolon-cluster: soar-postgres
- name: soar-postgres-data-default-postgres-keeper-0
+ name: soar-postgres-data-soar-postgres-keeper-0
  namespace: <REPLACE_WITH_NAMESPACE>
 spec:
   accessModes:
@@ -20,7 +20,7 @@ metadata:
  labels:
     component: stolon-keeper
     stolon-cluster: soar-postgres
- name: soar-postgres-data-default-postgres-keeper-1
+ name: soar-postgres-data-soar-postgres-keeper-1
  namespace: <REPLACE_WITH_NAMESPACE>
 spec:
   accessModes:
