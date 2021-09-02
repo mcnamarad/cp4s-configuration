@@ -3,8 +3,8 @@ kind: PersistentVolumeClaim
 metadata:
  labels:
     component: stolon-keeper
-    stolon-cluster: default-postgres
- name: default-postgres-data-default-postgres-keeper-0
+    stolon-cluster: soar-postgres
+ name: soar-postgres-data-default-postgres-keeper-0
  namespace: <REPLACE_WITH_NAMESPACE>
 spec:
   accessModes:
@@ -19,8 +19,8 @@ kind: PersistentVolumeClaim
 metadata:
  labels:
     component: stolon-keeper
-    stolon-cluster: default-postgres
- name: default-postgres-data-default-postgres-keeper-1
+    stolon-cluster: soar-postgres
+ name: soar-postgres-data-default-postgres-keeper-1
  namespace: <REPLACE_WITH_NAMESPACE>
 spec:
   accessModes:
