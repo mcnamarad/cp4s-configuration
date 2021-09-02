@@ -1,0 +1,25 @@
+apiVersion: v1    
+kind: PersistentVolumeClaim
+metadata:  
+  name: temp-pvc-keeper-0
+  namespace: <REPLACE_WITH_NAMESPACE>
+spec:
+  storageClassName: <REPLACE_WITH_STORAGE_CLASS_NAME>
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Ti
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: temp-pvc-keeper-1
+  namespace: <REPLACE_WITH_NAMESPACE>
+spec:
+  storageClassName: <REPLACE_WITH_STORAGE_CLASS_NAME>
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Ti 
