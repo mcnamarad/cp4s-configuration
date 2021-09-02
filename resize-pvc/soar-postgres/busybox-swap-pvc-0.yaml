@@ -9,7 +9,7 @@ spec:
   volumes:
     - name: volume-source
       persistentVolumeClaim:
-        claimName: default-postgres-data-default-postgres-keeper-0
+        claimName: soar-postgres-data-default-postgres-keeper-0
     - name: volume-destination
       persistentVolumeClaim:
         claimName: temp-pvc-keeper-0
