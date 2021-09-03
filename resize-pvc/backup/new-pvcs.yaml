@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+ labels:
+    app.kubernetes.io/instance: backup-restore
+    app.kubernetes.io/managed-by: cp4s-backuprestore-operator
+    app.kubernetes.io/name: backup-restore
+    chart: backup-restore
+ name: cp4s-backup-pv-claim 
+ namespace: <REPLACE_WITH_NAMESPACE>
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: <REPLACE_WITH_STORAGE_SIZE> 
+  storageClassName: <REPLACE_WITH_STORAGE_CLASS_NAME> 
